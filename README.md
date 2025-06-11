@@ -12,3 +12,22 @@ TILE_TYPES = {
     2: "water",
     3: "dirt"
 }
+
+CONTROLS:
+Mouse: 
+    Left click = place tile 
+    Right click = remove tile 
+    Wheel = zoom
+
+Map: 
+    CTRL+Arrows = resize map 
+    Arrows = scroll map 
+    +/- = zoom in/out
+
+Files: 
+    S = save map 
+    L = load map 
+    CTRL+O = open map
+    CTRL+N = new map 
+    ESC = quit
+        
