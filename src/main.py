@@ -11,8 +11,8 @@ GRID_HEIGHT = 10  # Default height for new maps
 PALETTE_HEIGHT = 2
 # Constants for map size limits
 MIN_GRID_SIZE = 3
-MAX_GRID_WIDTH = 20
-MAX_GRID_HEIGHT = 15
+MAX_GRID_WIDTH = float('inf')  # Unlimited width
+MAX_GRID_HEIGHT = float('inf')  # Unlimited height
 
 # Window dimensions
 WINDOW_WIDTH = 1280
